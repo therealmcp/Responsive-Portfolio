@@ -106,8 +106,8 @@ footer {
 }
 
 .row {
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
     padding-bottom: 50px;
     width: auto;
     height: auto;
@@ -214,103 +214,34 @@ select{
 
 @media screen and (max-width: 980px) {
 
-    .headercontent {
-        width: 100%;
-    }
-
-    .topnav {
-        float: none;
-        position: static;
-        align-self: center !important;
-        width: 100%;
-        top: 0px;
-        background-color: #ffffff;
-        padding: 15px;
-        text-align: center;
-    }
-    
     h1 {
-        width: 100%;
-        background-color: #4aaaa5;
-        padding: 25px;
-    }
-
-    .container {
-        width: 90%;
-        margin-bottom: 100px;
-        align-content: center;
-    }
-
-    footer {
-        position: relative;
-        bottom: 0;
-    }
-
-    #bio-image {
-        float: none;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 70%; 
-        height: 70%;
-    }
-
-    .image {
-        width: 80%;
-        height: 80%;
-        align-self: center;
-        float: none;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 70%; 
-        height: 70%;
-    }
-
-    .text-block {
-        float: none;
-        bottom: 20%;
-        width: 65%;
-        background-color: #4aaaa5;
+        margin-bottom: 0px;
+        font-size: 28px;
         color: #eee;
         text-align: center;
-        padding: 10px;
-        right: 64px;
-    }
-
-    .row {
-        width: 70%;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-    
-    .headercontent {
-        width: 100%;
-    }
-
-    .topnav {
-        float: none;
-        position: static;
-        align-self: center !important;
-        width: 100%;
-        top: 0px;
-        background-color: #ffffff;
-        padding: 15px;
-        text-align: center;
-    }
-    
-    h1 {
-        width: 100%;
         background-color: #4aaaa5;
-        padding: 25px;
+        width: 230px;
+        padding: 20px 0 20px 0;
+        font-weight: bold;
+        position: relative;
+        right: 110px;
     }
+    
+    .topnav {
+        float: right;
+        position: relative;
+        bottom: 45px;
+        display: flex;
+        font-size: 20px;
+        left: 110px; 
+    }
+    
 
     .container {
-        width: 90%;
+        width: 60%;
         margin-bottom: 100px;
         align-content: center;
+        right: 130px;
     }
 
     footer {
@@ -347,7 +278,74 @@ select{
         color: #eee;
         text-align: center;
         padding: 10px;
-        right: 49px;
+        right: 40px;
+    }
+
+    .row {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .topnav {
+        float: none;
+        position: static;
+        align-self: center !important;
+        width: 100%;
+        top: 0px;
+        background-color: #ffffff;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    h1 {
+        background-color: #4aaaa5;
+        padding: 25px;
+    }
+
+    .container {
+        width: 90%;
+        margin-bottom: 100px;
+        align-content: center;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+
+    #bio-image {
+        float: none;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%; 
+        height: 70%;
+    }
+
+    .image {
+        width: 80%;
+        height: 80%;
+        align-self: center;
+        float: none;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%; 
+        height: 70%;
+    }
+
+    .text-block {
+        float: none;
+        bottom: 20%;
+        width: 56%;
+        background-color: #4aaaa5;
+        color: #eee;
+        text-align: center;
+        padding: 10px;
+        right: 62px;
     }
 
     .row {
@@ -414,12 +412,12 @@ select{
     .text-block {
         float: none;
         bottom: 20%;
-        width: 62%;
+        width: 66%;
         background-color: #4aaaa5;
         color: #eee;
         text-align: center;
         padding: 10px;
-        right: 41px;
+        right: 36px;
     }
 
     .row {
